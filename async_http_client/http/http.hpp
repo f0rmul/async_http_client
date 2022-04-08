@@ -77,6 +77,5 @@ namespace net
 		std::condition_variable m_cv;
 		mutable std::mutex m_mutex;
 		std::atomic<bool> is_ready_response{ false };
-		std::atomic<bool> has_error{ false };
 	};
 } // net
